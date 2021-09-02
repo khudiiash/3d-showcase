@@ -61,7 +61,7 @@ function guiMesh(mesh, name, addLight) {
 }
 
 const stats = Stats()
-document.body.appendChild(stats.dom)
+// document.body.appendChild(stats.dom)
 
 
 
@@ -734,6 +734,5 @@ if (notebook ) {
 
 }   
 
-
-// gui.hide()
+gui.hide()
 tick()
